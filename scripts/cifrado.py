@@ -1,6 +1,6 @@
 from Crypto.Cipher import AES
 
-#Este es el vector de inicialización, debe ser el mismo para encriptar y desencriptar
+#Este es el vector de inicialización, debe ser el mismo para cifrar y descifrar
 iv="IVV's12345667890"
 
 def encrypt(key,message,iv):
